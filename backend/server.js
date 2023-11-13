@@ -107,7 +107,7 @@ app.post("/addStudent", async function (req, res) {
     reqBody.id,
     reqBody.name,
     reqBody.age,
-    reqBody.religion
+    reqBody.hometown
   );
 
   res.setHeader("Content-Type", "application/json");
