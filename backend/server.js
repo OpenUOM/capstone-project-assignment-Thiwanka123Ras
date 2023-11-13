@@ -13,10 +13,10 @@ const {
   updateStudent,
   updateTeacher,
   dbinitialize
-} = ("./database.js");
+} = require("./database.js");
 
 const app = express();
-const bodyParser = require  ("body-parser");
+const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
@@ -107,7 +107,7 @@ app.post("/addStudent", async function (req, res) {
     reqBody.id,
     reqBody.name,
     reqBody.age,
-    reqBody.hometown
+    reqBody.religion
   );
 
   res.setHeader("Content-Type", "application/json");
