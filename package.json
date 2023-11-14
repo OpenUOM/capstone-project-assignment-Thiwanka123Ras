@@ -28,6 +28,7 @@
     "sqlite3": "^5.1.6"
   },
   "devDependencies": {
+    "@types/jasmine": "^5.1.2",
     "cross-env": "^7.0.3",
     "del-cli": "^4.0.1",
     "jest": "^27.5.1",
