@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { StudentTableComponen } from './components/student-table/student-table.component';
+import { StudentTableComponent } from './components/student-table/student-table.component';
 import { TeacherTableComponent } from './components/teacher-table/teacher-table.component';
 import { AddNewTeacherComponent } from './components/add-new-teacher/add-new-teacher.component';
 import { AddNewStudentComponent } from './components/add-new-student/add-new-student.component';

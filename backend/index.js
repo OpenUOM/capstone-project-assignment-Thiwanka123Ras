@@ -7,9 +7,9 @@ if(process.env.NODE_ENV === "test"){
     );
   });
 }else{
-  server.listen(7000,function ()  {
+  server.listen(8000,function ()  {
     console.log(
-      "Capstone Project Backend is running on http://localhost:6000"
+      "Capstone Project Backend is running on http://localhost:8000"
     );
   });
 }
